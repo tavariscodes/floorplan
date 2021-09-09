@@ -1,6 +1,7 @@
 div {
     /* border: 1px solid grey; */
     text-align: center;
+    color: white;
     
 
     /* margin: 5px;
@@ -19,7 +20,7 @@ div {
     'bedroom2 bedroom2 bath-half bedroom3 bedroom3';
 }
 
-.bedroom { background-color: green; } 
+.bedroom {display: flex; justify-content: center; align-items: center; background-color: green;  } 
 #bed-1 { grid-area: bedroom1;  }
 #bed-2 { grid-area: bedroom2; }
 #bed-3 { grid-area: bedroom3;}
@@ -27,7 +28,7 @@ div {
 .sink { background-color: brown; width: 50%}
 #bath-Half { grid-area: bath-half }
 #bath-Full { grid-area: bath-full }
-.kitchen {grid-area: kitchen; background-color: yellow; }
-.bath { grid-area: bath; background-color: orange; }
-.livingroom { grid-area: livingroom; background-color: tan; }
+.kitchen { grid-area: kitchen; background-color: yellow;  }
+.bath { display: flex; justify-content: center; align-items: center;  grid-area: bath; background-color: orange; }
+.livingroom { display: flex; justify-content: center; align-items: center; grid-area: livingroom; background-color: tan; }
 .ovsink {display: flex;}
